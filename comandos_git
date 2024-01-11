@@ -1,0 +1,18 @@
+git init
+git branch
+git status
+git add .
+git add Readme.md
+git commit -m "Inserir frase"
+git log
+git log --decorate
+git log --author="Alexandre"
+git shortlog
+git shortlog -sm
+git log --graph
+git show aa8fc631a5c128f27ce1846d49dfb052bd92941d
+git diff
+git diff --name-only
+git commit -am "Escrever uma mensagem"
+git show
+git checkout "Readme.md"
