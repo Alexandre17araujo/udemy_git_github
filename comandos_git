@@ -8,7 +8,7 @@ git log
 git log --decorate
 git log --author="Alexandre"
 git shortlog
-git shortlog -sm
+git shortlog -sn
 git log --graph
 git show aa8fc631a5c128f27ce1846d49dfb052bd92941d
 git diff
