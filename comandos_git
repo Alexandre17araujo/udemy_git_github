@@ -25,3 +25,7 @@ git push = Mesma coisa que comando de cima
 git checkout -b testing = Criar uma branch. Substitua 'testing' pelo nome que desejar
 git checkout nome_da_branch = Navega entre as branchs
 git branch -D nome_da_branch = Deletando uma branch
+git stash = Guarda a modificação para usar depois. (Ele não aparece no git status)
+git stash apply = Aplicar as mudanças que tinha guardado
+git stash list = Listar de todos os stash que estiver fazendo
+git stash clear = Limpa tudo que estiver no stash
