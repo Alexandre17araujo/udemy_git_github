@@ -17,7 +17,7 @@ git commit -am "Escrever uma mensagem"
 git show
 git checkout "Readme.md"
 git reset --sort ou --mixed ou --hard bb9kc982d5h123h25ce19933d49ghb002b55531k
-git remote set-url origin https://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@github.com/Alexandre17araujo/udemy_git_github
+git remote set-url origin https://bb9kc982d5h123h25ce19933d49ghb002b55531k@github.com/Alexandre17araujo/udemy_git_github
 git remote
 git remote -v
 git push -u origin master = Envia todos os arquivos para o repositorio remoto
@@ -29,3 +29,9 @@ git stash = Guarda a modificação para usar depois. (Ele não aparece no git st
 git stash apply = Aplicar as mudanças que tinha guardado
 git stash list = Listar de todos os stash que estiver fazendo
 git stash clear = Limpa tudo que estiver no stash
+==================================================
+Criando atalhos
+ex: git config --global alias.s status
+=================================================
+git tag -a 1.0.0 -m "Escrever qualquer texto"
+git push origin main --tags = Para subir a tag com a versão que coloquei a cima
