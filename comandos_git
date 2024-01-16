@@ -37,3 +37,11 @@ git tag -a 1.0.0 -m "Escrever qualquer texto"
 git push origin main --tags = Para subir a tag com a versão que coloquei a cima
 git tag = Consegue ver todas as tags criadas
 git push origin main --tags = Subir com a nova versão da tags
+git reverse 92a0c4563196f51a36fda71f7a4509b8fca4fb7c = Reverter a mudanças colocando o código anterior
+=================================================
+Apagando tags
+git tag -d 1.0.1 = Apagando local
+git push origin :1.0.1 = Apagando repositorio remoto
+
+Apagando brach
+git push origin :test = Apagando branch no repositorio remoto
