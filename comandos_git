@@ -10,13 +10,13 @@ git log --author="Alexandre"
 git shortlog
 git shortlog -sn
 git log --graph
-git show aa8fc631a5c128f27ce1846d49dfb052bd92941d
+git show bb9kc982d5h123h25ce19933d49ghb002b55531k
 git diff
 git diff --name-only
 git commit -am "Escrever uma mensagem"
 git show
 git checkout "Readme.md"
-git reset --sort ou --mixed ou --hard aa8fc631a5c128f27ce1846d49dfb052bd92941d
+git reset --sort ou --mixed ou --hard bb9kc982d5h123h25ce19933d49ghb002b55531k
 git remote set-url origin https://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@github.com/Alexandre17araujo/udemy_git_github
 git remote
 git remote -v
