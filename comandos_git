@@ -1,5 +1,5 @@
 git init
-git branch
+git branch = Mostrar as branchs existentes
 git status
 git add .
 git add Readme.md
@@ -22,3 +22,6 @@ git remote
 git remote -v
 git push -u origin master = Envia todos os arquivos para o repositorio remoto
 git push = Mesma coisa que comando de cima
+git checkout -b testing = Criar uma branch. Substitua 'testing' pelo nome que desejar
+git checkout nome_da_branch = Navega entre as branchs
+git branch -D nome_da_branch = Deletando uma branch
