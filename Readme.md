@@ -8,3 +8,4 @@ Testando adicionando uma nova linha
 
 Inserindo nova linha
 
+print('Comecando a jogar serio')
