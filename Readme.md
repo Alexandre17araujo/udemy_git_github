@@ -11,5 +11,3 @@ Inserindo nova linha
 print('Comecando a jogar serio')
 
 Informando mais uma linha
-
-Inserindo nova linha de teste
